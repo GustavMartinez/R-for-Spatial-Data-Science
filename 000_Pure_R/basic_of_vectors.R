@@ -27,3 +27,7 @@ total_vect_1 <- sum(vector_1)
 total_vect_2 <- sum(vector_2)
 total_vectores <- total_vect_1 + total_vect_2
 total_vectores
+
+# media de los elementos de un vector
+vector_3 <- c(5,10,15,20,25,30)
+mean(vector_3)
