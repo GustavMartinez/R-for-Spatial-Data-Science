@@ -34,3 +34,7 @@ rownames(sw_matrix) <- titles
 
 # Adicionar el nombre de las columnas (column names)
 colnames(sw_matrix) <- region
+
+## calcular el total de cada fila:
+worldwide_vector <- rowSums(sw_matrix)
+worldwide_vector
