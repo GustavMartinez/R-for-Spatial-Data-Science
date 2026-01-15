@@ -20,3 +20,17 @@ box_office <- c(new_hope, empire_strikes, return_jedi)
 # Construir una matriz
 sw_matrix <- matrix(box_office, nrow=3, byrow=TRUE)
 sw_matrix
+
+## dar nombre a las columnas (columns) y a las filas (rows)
+
+# vector de regiones (region)
+region <- c('US', "non-US")
+
+# vector de titulos (titles)
+titles <- c("A new Hope", "The Empire Strikes back", "Return of the Jedi")
+
+# Adicionar el nombre de las files (row names)
+rownames(sw_matrix) <- titles
+
+# Adicionar el nombre de las columnas (column names)
+colnames(sw_matrix) <- region
