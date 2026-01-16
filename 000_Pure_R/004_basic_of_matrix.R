@@ -38,3 +38,7 @@ colnames(sw_matrix) <- region
 ## calcular el total de cada fila:
 worldwide_vector <- rowSums(sw_matrix)
 worldwide_vector
+
+## Adicionar la columna a la matriz
+all_swm <- cbind(sw_matrix, worldwide_vector)
+all_swm
